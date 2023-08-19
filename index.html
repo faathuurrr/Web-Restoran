@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Ini Restoran Itali</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Restaurantly
+  * Updated: Jul 27 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+    <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="d-flex align-items-center fixed-top">
+        <div class="container d-flex justify-content-center justify-content-md-between">
+            <div class="contact-info d-flex align-items-center">
+                <i class="bi bi-phone d-flex align-items-center"><span>+62 1234 5678 90</span></i>
+                <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11.00 - 23.00 WIB</span></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-cente">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+            <h1 class="logo me-auto me-lg-0">
+                <a href="index.html">Ini Restoran Itali</a>
+            </h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+                    <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
+                    <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <li class="dropdown"><a href="#"><span>Color</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <a href="javascript:void(0)" class="switch-trigger background-color">
+                                <div class="badge-colors my-2 text-start">
+                                    <span class="badge filter bg-gradient-primary active" data-color="primary"
+                                        onclick="sidebarColor(this)"></span>
+                                    <span class="badge filter bg-gradient-dark" data-color="dark" 
+                                        onclick="sidebarColor(this)"></span>
+                                    <span class="badge filter bg-gradient-info" data-color="info" 
+                                        onclick="sidebarColor(this)"></span>
+                                    <span class="badge filter bg-gradient-success" data-color="success"
+                                        onclick="sidebarColor(this)"></span>
+                                    <span class="badge filter bg-gradient-warning" data-color="warning"
+                                        onclick="sidebarColor(this)"></span>
+                                    <span class="badge filter bg-gradient-danger" data-color="danger"
+                                        onclick="sidebarColor(this)"></span>
+                                </div>
+                            </a>
+                            <li>
+                                <h6 class="text-dark ms-2">Dark / Light</h6>
+                                <div class="form-check form-switch ms-2">
+                                    <input class="form-check-input" type="checkbox" onclick="lightMode(this)">
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1>Ini <span>Restoran Itali</span></h1>
+                    <h2>Where Italian Flavors Find Their Home</h2>
+                </div>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+                    <a href="https://www.youtube.com/watch?v=rl0czzipZhk" class="glightbox book-a-table-btn d-none d-lg-flex">Click Me!</a>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="about-img">
+                            <img src="assets/img/about.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                        <h3>
+                            An experience you've never had.
+                        </h3>
+                        <p class="fst-italic">
+                            We proudly present to you an authentic and unforgettable Italian 
+                            culinary experience. Since our establishment, we have been 
+                            committed to delivering the flavors of Italy that leave lasting 
+                            memories through our special dishes.
+                        </p>
+                        <ul>
+                            <li>
+                                <i class="bi bi-check-circle"></i> Authentic Flavors, Modern Touches
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle"></i> Meticulously Crafted Menu
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle"></i> A True Italian Experience
+                            </li>
+                        </ul>
+                        <p>
+                            Discover the allure of Italy right in your own neighborhood. 
+                            Visit us and treat yourself to an unforgettable Italian 
+                            dining experience. From romantic dinners to lively family 
+                            gatherings, Ini Restoran Itali is your destination for authentic flavors and cherished memories.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- ======= Why Us Section ======= -->
+        <section id="why-us" class="why-us">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Why Us</h2>
+                    <p>Why Choose Ini Restoran Itali</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                            <span>01</span>
+                            <h4>Authentic Flavors, Modern Touches</h4>
+                            <p>
+                                While we stay true to the authentic flavors of Italy, 
+                                we also infuse creative twists and modern touches 
+                                into our dishes. The result is a fusion of traditional 
+                                nd contemporary elements that delight even the most 
+                                discerning palates. Whether you're a connoisseur of 
+                                Italian cuisine or a newcomer to its wonders, there's 
+                                something on our menu to captivate your taste buds.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="box" data-aos="zoom-in" data-aos-delay="200">
+                            <span>02</span>
+                            <h4>Meticulously Crafted Menu</h4>
+                            <p>
+                                Our menu is a celebration of the diverse and rich 
+                                culinary traditions that Italy is renowned for. 
+                                Each dish is meticulously crafted by our skilled 
+                                chefs, using time-honored recipes and the finest, 
+                                locally sourced ingredients. Indulge in a 
+                                tantalizing array of antipasti, hand-rolled pasta, 
+                                wood-fired pizzas, and decadent desserts. Every bite 
+                                zqtells a story of tradition, passion, and craftsmanship.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="box" data-aos="zoom-in" data-aos-delay="300">
+                            <span>03</span>
+                            <h4>A True Italian Experience</h4>
+                            <p>
+                                Immerse yourself in the warmth and vibrancy of 
+                                Italy as you step into our restaurant. From the 
+                                moment you walk through our doors, you'll be 
+                                greeted by an ambiance that reflects the rustic 
+                                charm and elegance of an authentic Italian 
+                                trattoria. The cozy lighting, rustic decor, and 
+                                carefully curated Italian music combine to create 
+                                an atmosphere that feels like a genuine escape to Italy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Why Us Section -->
+
+        <!-- ======= Menu Section ======= -->
+        <section id="menu" class="menu section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Menu</h2>
+                    <p>Check Our Authentic Menu</p>
+                </div>
+
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="menu-flters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-starters">Starters</li>
+                            <li data-filter=".filter-salads">Salads</li>
+                            <li data-filter=".filter-specialty">Specialty</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-6 menu-item filter-starters">
+                        <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="" />
+                        <div class="menu-content">
+                            <a href="#">Lobster Bisque</a><span>125</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Lobster bisque with fennel shavings, thyme, and olive oil
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-specialty">
+                        <img src="assets/img/menu/bread-barrel.jpg" class="menu-img" alt="" />
+                        <div class="menu-content">
+                            <a href="#">Bread Barrel</a><span>105</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            crispy pastry with egg salad, smoked salmon, and avocado
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-starters">
+                        <img src="assets/img/menu/cake.jpg" class="menu-img" alt="" />
+                        <div class="menu-content">
+                            <a href="#">Crab Cake</a><span>120</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            A delicate crab cake served on a toasted roll with lettuce and
+                            tartar sauce
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-salads">
+                        <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="" />
+                        <div class="menu-content">
+                            <a href="#">Caesar Selections</a><span>100</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Vegetarian meal with traditional Caesar dressing
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-specialty">
+                        <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="" />
+                        <div class="menu-content">
+                            <a href="#">Tuscan Grilled</a><span>135</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Grilled chicken with provolone, artichoke hearts, and roasted
+                            red pesto
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-starters">
+                        <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="" />
+                        <div class="menu-content">
+                            <a href="#">Mozzarella Stick</a><span>75</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Deep fried mozzarella sticks served with a side of marinara sauce
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-salads">
+                        <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="" />
+                        <div class="menu-content">
+                            <a href="#">Greek Salad</a><span>75</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Fresh spinach, crisp romaine, tomatoes, and Greek olives
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-salads">
+                        <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="" />
+                        <div class="menu-content">
+                            <a href="#">Spinach Salad</a><span>90</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Fresh spinach with mushrooms, hard boiled egg, and warm bacon
+                            vinaigrette
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 menu-item filter-specialty">
+                        <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="" />
+                        <div class="menu-content">
+                            <a href="#">Lobster Roll</a><span>195</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            Plump lobster meat, mayo and crisp lettuce on a toasted bulky
+                            roll
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Menu Section -->
+
+        <!-- ======= Specials Section ======= -->
+        <section id="specials" class="specials">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Specials</h2>
+                    <p>Check Our Specials</p>
+                </div>
+
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-3">
+                        <ul class="nav nav-tabs flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Lobster Roll</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Tuscan Grilled</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Bread Barrel</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-9 mt-4 mt-lg-0">
+                        <div class="tab-content">
+                            <div class="tab-pane active show" id="tab-1">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Lobster Roll: A Seafood Delight</h3>
+                                        <p>
+                                            Indulge in the epitome of oceanic luxury 
+                                            with our exquisite Lobster Roll. Imagine 
+                                            succulent pieces of tender lobster meat, 
+                                            freshly caught from the brimming sea, 
+                                            delicately nestled within a buttery, 
+                                            toasted brioche roll. Each bite offers a 
+                                            harmonious blend of textures and flavors—the 
+                                            sweet essence of the lobster enhanced by a 
+                                            light drizzle of lemon-infused aioli. Savor 
+                                            the taste of the sea as you experience the 
+                                            perfect balance of rich, buttery goodness 
+                                            and the subtle zest of citrus. Our Lobster 
+                                            Roll is more than a dish; it's an invitation 
+                                            to embrace the ocean's bounty in a celebration 
+                                            of taste and refinement.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="assets/img/menu/lobster-roll.jpg" alt="" class="img-fluid" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab-2">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Tuscan Grilled: Rustic Elegance</h3>
+                                        <p>
+                                            Transport your senses to the picturesque 
+                                            landscapes of Tuscany with our Tuscan 
+                                            Grilled masterpiece. We've taken inspiration 
+                                            from the heart of Italy and created a dish 
+                                            that embodies rustic elegance. Tender cuts 
+                                            of premium meat are marinated in a blend 
+                                            of fragrant herbs, olive oil, and aged 
+                                            balsamic vinegar. As they sizzle on the 
+                                            grill, the aromas infuse the air with 
+                                            anticipation. The result? A charred, 
+                                            caramelized exterior that gives way to 
+                                            succulent tenderness within. With every 
+                                            forkful, you'll experience the robust 
+                                            flavors of the Tuscan countryside, brought 
+                                            to life in a symphony of taste that 
+                                            captures the essence of Italy's culinary heritage.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="assets/img/menu/tuscan-grilled.jpg" alt="" class="img-fluid" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab-3">
+                                <div class="row">
+                                    <div class="col-lg-8 details order-2 order-lg-1">
+                                        <h3>Bread Roll: The Artisanal Classic</h3>
+                                        <p>
+                                            Elevate your dining experience with our artisanal 
+                                            Bread Roll, a true testament to the art of baking. 
+                                            Crafted with passion and precision, our bread roll 
+                                            is the epitome of simplicity done right. A crusty 
+                                            exterior gives way to a soft, warm interior, 
+                                            exuding the comforting aroma of freshly baked 
+                                            goodness. The first tear reveals the tender heart 
+                                            of the roll, perfect for sopping up rich sauces 
+                                            or pairing with your favorite dish. This bread 
+                                            roll isn't just a side; it's an ode to tradition 
+                                            and the love of honest, time-honored ingredients. 
+                                            As you relish each bite, you'll be reminded that 
+                                            sometimes, the most cherished flavors come from 
+                                            the simplest creations.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                                        <img src="assets/img/menu/bread-barrel.jpg" alt="" class="img-fluid" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Specials Section -->
+
+        <!-- ======= Testimonials Section ======= -->
+        <section id="testimonials" class="testimonials section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Testimonials</h2>
+                    <p>What they're saying about us</p>
+                </div>
+
+                <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    Proin iaculis purus consequat sem cure digni ssim donec
+                                    porttitora entum suscipit rhoncus. Accusantium quam,
+                                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                                    risus at semper.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="" />
+                                <h3>Saul Goodman</h3>
+                                <h4>Ceo &amp; Founder</h4>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    Export tempor illum tamen malis malis eram quae irure esse
+                                    labore quem cillum quid cillum eram malis quorum velit fore
+                                    eram velit sunt aliqua noster fugiat irure amet legam anim
+                                    culpa.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="" />
+                                <h3>Sara Wilsson</h3>
+                                <h4>Designer</h4>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    Enim nisi quem export duis labore cillum quae magna enim
+                                    sint quorum nulla quem veniam duis minim tempor labore quem
+                                    eram duis noster aute amet eram fore quis sint minim.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="" />
+                                <h3>Jena Karlis</h3>
+                                <h4>Store Owner</h4>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                                    multos export minim fugiat minim velit minim dolor enim duis
+                                    veniam ipsum anim magna sunt elit fore quem dolore labore
+                                    illum veniam.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="" />
+                                <h3>Matt Brandon</h3>
+                                <h4>Freelancer</h4>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    Quis quorum aliqua sint quem legam fore sunt eram irure
+                                    aliqua veniam tempor noster veniam enim culpa labore duis
+                                    sunt culpa nulla illum cillum fugiat legam esse veniam culpa
+                                    fore nisi cillum quid.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="" />
+                                <h3>John Larson</h3>
+                                <h4>Entrepreneur</h4>
+                            </div>
+                        </div>
+                        <!-- End testimonial item -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End Testimonials Section -->
+
+        <!-- ======= Gallery Section ======= -->
+        <section id="gallery" class="gallery">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Gallery</h2>
+                    <p>Some photos from Our Restaurant</p>
+                </div>
+            </div>
+
+            <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+                <div class="row g-0">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox"
+                                data-gall="gallery-item">
+                                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox"
+                                data-gall="gallery-item">
+                                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox"
+                                data-gall="gallery-item">
+                                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox"
+                                data-gall="gallery-item">
+                                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox"
+                                data-gall="gallery-item">
+                                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox"
+                                data-gall="gallery-item">
+                                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox"
+                                data-gall="gallery-item">
+                                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox"
+                                data-gall="gallery-item">
+                                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Gallery Section -->
+
+        <!-- ======= Chefs Section ======= -->
+        <section id="chefs" class="chefs">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Chefs</h2>
+                    <p>Our Proffesional Chefs</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                            <img src="assets/img/chefs/juna.jpg" class="img-fluid" alt="" />
+                            <div class="member-info">
+                                <div class="member-info-content">
+                                    <h4>Juna Rorimpandey</h4>
+                                    <span>Master Chef</span>
+                                </div>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="member" data-aos="zoom-in" data-aos-delay="200">
+                            <img src="assets/img/chefs/renatta.jpg" class="img-fluid" alt="" />
+                            <div class="member-info">
+                                <div class="member-info-content">
+                                    <h4>Renatta Moeloek</h4>
+                                    <span>Patissier</span>
+                                </div>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="member" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="assets/img/chefs/arnold.jpg" class="img-fluid" alt="" />
+                            <div class="member-info">
+                                <div class="member-info-content">
+                                    <h4>Arnold Poernomo</h4>
+                                    <span>Cook</span>
+                                </div>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Chefs Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <hr class="border-1 opacity-100" style="color: #cda45e;" />
+            <div class="container" data-aos="fade-up">
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <div class="info">
+                            <div class="open-hours">
+                                <i class="bi bi-clock"></i>
+                                <h4>Open Hours:</h4>
+                                <p>
+                                    Monday-Saturday:<br />
+                                    11.00 - 23.00 WIB
+                                </p>
+                            </div>
+
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>inirestoranitali@resto.com</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+62 1234 5678 90</p>
+                            </div>
+                        </div>
+                        <div class="social-links mt-5 pt-5">
+                            <a href="#" class="twitter mx-2"><i class="bx bxl-twitter"></i></a>
+                            <a href="#" class="facebook mx-2"><i class="bx bxl-facebook"></i></a>
+                            <a href="#" class="instagram mx-2"><i class="bx bxl-instagram"></i></a>
+                            <a href="#" class="google-plus mx-2"><i class="bx bxl-skype"></i></a>
+                            <a href="#" class="linkedin mx-2"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 mt-5 mt-lg-0">
+                        <div class="address mb-5">
+                            <i class=""></i>
+                            <h4>Our Location:</h4>
+                            <p>Jalan, Rungkut Asri Barat No.18, Medokan Ayu, Kec. Rungkut, Surabaya, Jawa Timur 60293</p>
+                        </div>
+                        <div data-aos="fade-up">
+                            <iframe style="border: 0; width: 100%; height: 350px"
+                                src="https://www.google.com/maps/embed/v1/place?q=Depot+Rara,+Rungkut+Asri+Barat,+Medokan+Ayu,+Surabaya,+East+Java,+Indonesia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                                frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Ini Restoran Itali</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
+    <!-- function script -->
+    <script>
+        var body = document.body;
+        var element = document.getElementsByID("menu", "testimonials");
+
+        function lightMode() {
+            body.classList.toggle("light-mode");
+            element.classList.toggle("light-mode");
+        }
+    </script>
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
